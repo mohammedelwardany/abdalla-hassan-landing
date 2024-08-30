@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Teacher from "@/public/teacher.jpg";
+import Teacher from "@/public/abdallah.jpg";
 export default function TeacherSection() {
   return (
     <div className="relative flex flex-col items-center justify-center mt-8">
@@ -13,9 +13,8 @@ export default function TeacherSection() {
           <figure className="max-w-screen-md mx-auto text-center">
             <blockquote>
               <p className="text-md italic font-medium text-gray-900 dark:text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Temporibus dignissimos distinctio rerum facilis, esse
-                accusantium officia illum libero
+                الرياضيات مادة ممتعة تعتمد على تعلم المفاهيم والتطبيق
+                عليها وليس الحفظ
               </p>
             </blockquote>
             <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">

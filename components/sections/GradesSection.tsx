@@ -5,18 +5,21 @@ export default function GradesSection() {
     {
       grade: "الصف الأول",
       level: 1,
+      link: "https://chat.whatsapp.com/CRMOAIUsllI7gU6UMP69yP",
     },
     {
       grade: "الصف الثاني",
       level: 2,
+      link: "https://chat.whatsapp.com/B5DDY9ANy9B4yW8Du6Tcid",
     },
     {
       grade: "الصف الثالث",
       level: 3,
+      link: "https://chat.whatsapp.com/K8v6XBVnc03GAlX75aQxXA",
     },
   ];
   return (
-    <div className="mt-8">
+    <div id="grades" className="mt-8">
       <h6 className="text-primary">طلابنا</h6>
       <h4 className="text-2xl mt-2 mb-4">الصفوف الدراسية</h4>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4">
@@ -26,6 +29,7 @@ export default function GradesSection() {
               key={i}
               title={e.grade}
               grade={e.level}
+              link={e.link}
               subtitle="متوفر"
             />
           );

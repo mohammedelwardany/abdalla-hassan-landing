@@ -62,7 +62,6 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <Button className="w-32">تسجيل</Button>
         </div>
       </div>
     </nav>

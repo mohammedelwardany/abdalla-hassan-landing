@@ -1,6 +1,6 @@
 import { Plus, Percent, Pi, MoveLeft } from "lucide-react";
 import { Button } from "../ui/button";
-
+import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="text-center py-2">
@@ -19,13 +19,11 @@ export default function HeroSection() {
           الأمتحانات
         </p>
         <div className="flex items-center justify-center mt-4 gap-6">
-          <Button size={"lg"}>
-            أبدا الأن ! <MoveLeft className="mr-2 h-4 w-4" />
-          </Button>
-
-          <Button variant={"outline"} size={"lg"}>
-            أعرف المزيد
-          </Button>
+          <Link href="#grades">
+            <Button size={"lg"}>
+              أبدا الأن ! <MoveLeft className="mr-2 h-4 w-4" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

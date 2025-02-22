@@ -5,17 +5,17 @@ export default function GradesSection() {
     {
       grade: "الصف الأول",
       level: 1,
-      link: "https://chat.whatsapp.com/CRMOAIUsllI7gU6UMP69yP",
+      link: "https://classroom.google.com/c/NzEyNDIxODA5MDU1?cjc=tsqbviv",
     },
     {
       grade: "الصف الثاني",
       level: 2,
-      link: "https://chat.whatsapp.com/B5DDY9ANy9B4yW8Du6Tcid",
+      link: "https://classroom.google.com/c/NzEyNDI2NjQ2MTc4?cjc=p5pdcwm",
     },
     {
       grade: "الصف الثالث",
       level: 3,
-      link: "https://chat.whatsapp.com/K8v6XBVnc03GAlX75aQxXA",
+      link: "https://classroom.google.com/c/NzEyNDI5ODg1NTgx?cjc=a5ntend",
     },
   ];
   return (

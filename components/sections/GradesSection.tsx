@@ -5,17 +5,17 @@ export default function GradesSection() {
     {
       grade: "الصف الأول",
       level: 1,
-      link: "https://classroom.google.com/c/NzEyNDIxODA5MDU1?cjc=tsqbviv",
+      link: "https://classroom.google.com",
     },
     {
       grade: "الصف الثاني",
       level: 2,
-      link: "https://classroom.google.com/c/NzEyNDI2NjQ2MTc4?cjc=p5pdcwm",
+      link: "https://classroom.google.com",
     },
     {
       grade: "الصف الثالث",
       level: 3,
-      link: "https://classroom.google.com/c/NzEyNDI5ODg1NTgx?cjc=a5ntend",
+      link: "https://classroom.google.com",
     },
   ];
   return (
